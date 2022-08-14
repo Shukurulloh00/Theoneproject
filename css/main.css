@@ -140,9 +140,6 @@
     border: none;
     cursor: pointer;
  }
-
-
-
  ul{
     margin: 0px;
     padding: 0px;
@@ -255,11 +252,18 @@ color: #000000;
     .olivia__img{
       max-width:150px;
     }
-    /* .olivia__list{
+ }
+
+ @media screen and (max-width: 560px) {
+    .olivia__list{
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       flex-direction: column;
-    } */
+    }
+      .olivia__item{
+        margin-bottom: 30px;
+      }
  }
  /* wmdowmcwocwew */
 
@@ -299,6 +303,27 @@ color: #000000;
   .cloth__label__second{
     margin-left: 100px;
   }
+ }
+
+ @media screen and (max-width: 560px) {
+    .cloth{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: center;
+      margin: 30px;
+    }
+    .cloth__label{
+      margin-bottom: 10px;
+    }
+
+    .cloth__label__second{
+     margin: 10px 0px;
+    }
+
+    .cloth__select{
+      width: 100%;
+    }
  }
  /* увюуцхжабцухабуцдха */
 
