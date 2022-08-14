@@ -286,6 +286,10 @@ color: #000000;
       .olivia__item{
         margin-bottom: 30px;
       }
+
+      .olivia__input{
+        max-width: 100%;
+      }
  }
  /* wmdowmcwocwew */
 
