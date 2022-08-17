@@ -199,10 +199,10 @@ margin-left: 15px;
     right: 3px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 420px) {
  .oreder__img{
-  width: 55px;
-  height: 55px;
+  width: 35px;
+  height: 35px;
  }
 
  .header__desc{
@@ -212,7 +212,7 @@ line-height: 18px;
  }
 
  .number__image{
-  width: 15px;
+  width: 10px;
  }
 }
 /* ццвьйцщвтцушщ*/
@@ -258,13 +258,13 @@ text-align: center;
 color: #000000;
   }
 
-  @media screen and (max-width:560px) {
+  @media screen and (max-width:420px) {
       .oreder__heading{
         font-size: 18px;
         margin-top: 20px;
       }
       th{
-        padding: 10px 30px ;
+        padding: 10px 10px ;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
