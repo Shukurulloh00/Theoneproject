@@ -180,6 +180,28 @@
     top:0;
     right: 3px
 }
+
+@media screen and (max-width:560px) {
+    .header__link > img {
+      width: 50px;
+      height: 50px;
+    }
+    .view{
+      height: 25px;
+    }
+
+    .model{
+      height: 25px;
+    }
+
+    .image__img{
+      width: 70px;
+      height: 70px;
+    }
+    .number__img{
+      width: 20px;
+    }
+}
 /* wd,msdcnedkneic */
 
 .sofa{
@@ -207,6 +229,14 @@
     align-items: center;
 }
 
+.sofa__info{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .sofa__btn{
     margin-left: 30px;
     font-family: 'Inter';
@@ -218,4 +248,23 @@ color: #FFFFFF;
 background: #29D726;
 border-radius: 15px;
 padding: 3px 20px;
+}
+
+@media screen and (max-width: 560px) {
+
+
+  
+    .sofa__list{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .sofa__item{
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
 }
